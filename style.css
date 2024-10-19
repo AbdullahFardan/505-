@@ -207,42 +207,56 @@ footer {
     }
 }
 
-/* التفاعلية لأجهزة iPhone */
+/* تحسين التفاعلية لأجهزة iPhone */
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     header h1 {
-        font-size: 1.2em; /* تقليل حجم النص */
+        font-size: 1em; /* تقليل حجم العنوان أكثر */
     }
     .lang-button {
-        width: 80px;
-        padding: 6px 12px; /* تعديل المسافات داخل الأزرار */
+        width: 80px; /* تقليل عرض الأزرار بشكل أكبر */
+        padding: 5px 8px; /* تقليل المسافات الداخلية */
     }
     iframe {
-        height: 200px; /* تعديل ارتفاع الإطارات */
+        height: 180px; /* تقليل ارتفاع iframe بشكل أكبر */
     }
     .language-selection h2, .language-selection h5 {
-        font-size: 1.3em; /* تقليل حجم العناوين */
+        font-size: 1.1em; /* تقليل حجم النص أكثر */
     }
     .language-selection h3, .language-selection h4 {
-        font-size: 1em; /* تقليل حجم العناوين الفرعية */
+        font-size: 0.9em; /* تقليل حجم النص بشكل كبير */
+    }
+    .glowing-card {
+        padding: 8px; /* تقليل الحشوات الداخلية للبطاقات بشكل ملحوظ */
+        margin: 5px auto; /* تقليل المسافات بين البطاقات */
+    }
+    .certificate h3 {
+        font-size: 1em; /* تقليل حجم النص للشهادات بشكل ملحوظ */
     }
 }
 
-/* التفاعلية لأجهزة Android */
+/* تحسين التفاعلية لأجهزة Android */
 @media only screen and (max-device-width: 768px) {
     header h1 {
-        font-size: 1.4em; /* تقليل حجم النص */
+        font-size: 1.2em; /* تقليل حجم العنوان بشكل أكبر */
     }
     .lang-button {
-        width: 100px;
-        padding: 6px 14px;
+        width: 90px; /* تقليل عرض الأزرار بشكل أكبر */
+        padding: 5px 10px; /* تقليل المسافات الداخلية */
     }
     iframe {
-        height: 220px;
+        height: 200px; /* تقليل ارتفاع iframe */
     }
     .language-selection h2, .language-selection h5 {
-        font-size: 1.4em; /* تحسين حجم العناوين */
+        font-size: 1.2em; /* تقليل حجم النص بشكل أكبر */
     }
     .language-selection h3, .language-selection h4 {
-        font-size: 1.1em;
+        font-size: 0.9em; /* تقليل حجم النص بشكل ملحوظ */
+    }
+    .glowing-card {
+        padding: 8px; /* تقليل الحشوات الداخلية للبطاقات بشكل ملحوظ */
+        margin: 5px auto; /* تقليل المسافات بين البطاقات */
+    }
+    .certificate h3 {
+        font-size: 1em; /* تقليل حجم النص للشهادات */
     }
 }
